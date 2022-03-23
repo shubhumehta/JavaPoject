@@ -1,0 +1,47 @@
+package day3;
+
+
+class Animal{
+	public void eat() {
+		
+		System.out.println("Animal Eats");
+	}
+}
+
+class Dog extends Animal{
+	@Override
+	public void eat() {
+		
+		System.out.println("Dog eats");
+	}
+}
+
+class Lion extends Animal{
+	@Override
+	public void eat() {
+		
+		System.out.println("Lion eats");
+	}
+}
+
+class Cat extends Animal{
+	@Override
+	public void eat() {
+		
+		System.out.println("Cat eats");
+	}
+}
+public class MyOverRide {
+	
+	public static void main(String[] args) {
+		Animal a = new Animal();
+		
+//		a = new Dog();
+//		a.eat();
+//		System.out.println();
+
+		System.out.println(a instanceof Dog);
+	}
+
+	
+}

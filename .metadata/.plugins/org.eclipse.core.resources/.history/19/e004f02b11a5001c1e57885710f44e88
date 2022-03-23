@@ -1,0 +1,18 @@
+package com.capg.pract;
+
+interface Calc{
+	void mul(int a, int b);
+}
+
+public class Lambda {
+	
+	public static void main(String[] args)
+	{
+		Calc c = (int a, int b) ->{
+			System.out.println(a*b);
+		};
+		
+		c.mul(10,2);
+	}
+
+}

@@ -1,0 +1,20 @@
+package day3;
+
+public class Addition {
+	static int add(int a, int b) {
+		System.out.println("First");
+		return a+b;
+	}
+	
+	static double add(double a, double b) {
+		System.out.println("second");
+		return a+b;
+	}
+	
+}
+public class MyOverload{
+	public static void main(String[] args) {
+		System.out.println(Addition.add(12.0d,37.9d));
+		System.out.println(Addition.add(12,37));
+	}
+}

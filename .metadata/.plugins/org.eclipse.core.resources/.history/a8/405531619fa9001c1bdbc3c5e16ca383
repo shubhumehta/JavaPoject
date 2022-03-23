@@ -1,0 +1,17 @@
+package com.capg.pract;
+
+import java.lang.reflect.Method;
+
+public class VarArgs {
+	
+	public static void display(int b, String val) {
+		System.out.println("Displaying");
+		System.out.println(b + " " + val);
+		
+	}
+	public static void main(String[] args) {
+		
+		display(3,"rohit","aman","naman");
+		
+	} 
+}

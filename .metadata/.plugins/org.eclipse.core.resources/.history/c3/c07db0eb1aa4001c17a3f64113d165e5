@@ -1,0 +1,19 @@
+package com.capg.practice;
+
+public class Constructor {
+
+	static int a = 100;
+	
+	static int b= 2;
+
+	 public static void method(int a, int b) {
+		 System.out.println(a*b);
+	 }
+	
+	public static void main(String args[]) {
+		
+//		Constructor a = new Constructor();
+//		a.method();
+		method(a,b);
+	}
+}

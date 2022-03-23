@@ -1,0 +1,26 @@
+package com.capg.pract;
+
+import java.util.*;
+interface Calc{
+	void mul(int a, int b);
+}
+
+public class Lambda {
+	
+	public static void main(String[] args)
+	{
+		Calc c = (int a, int b) ->{
+			System.out.println(a*b);
+		};
+		int a=2;
+		System.out.println("Input 2 values:");
+		Scanner sc = new Scanner(System.in);
+		int[] array = new int[a];
+		for(int i=0;i<2;i++)
+		{
+			array[i]=sc.nextInt();
+		}
+		c.mul(array[0],array[1]);
+	}
+
+}

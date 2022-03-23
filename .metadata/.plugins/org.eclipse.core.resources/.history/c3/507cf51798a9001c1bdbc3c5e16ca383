@@ -1,0 +1,11 @@
+package com.capg.pract;
+
+import java.util.regex.Pattern;
+
+public class match {
+
+	public static void main() {
+		System.out.println(Pattern.matches("\\d", "0"));
+		
+	}
+}
